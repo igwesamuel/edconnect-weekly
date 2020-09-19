@@ -19,18 +19,21 @@
         </nav>
 
         <form>
-            <h3>Search Project By</h3>
+            <fieldset>
+                <h3>Search Project By</h3>
+                </br></br>
+                <label>Project name, authors, abstract, tags:</label></br>
+                <input type="search" placeholder="search site" name="searchTerm"></br></br>
+                <label for="authorName">Name:</label></br>
+                <select id="authorName" name="authorName">
+                    <option></option>
+                    <option value="Ade Bolade">Ade Bolade</option>
+                    <option value="Brian Teleo">Brian Teleo</option>
+                    <option value="James Correy">James Correy</option>
+                </select>
             </br></br>
-            <label>Project name, authors, abstract, tags:</label></br>
-            <input type="search" placeholder="search site"></br></br>
-            <select>
-                <option></option>
-                <option value="Ade Bolade">Ade Bolade</option>
-                <option value="Brian Teleo">Brian Teleo</option>
-                <option value="James Correy">James Correy</option>
-            </select>
-        </br></br>
-            <button type="submit">Search</button>
+                <button type="submit">Search</button>
+            </fieldset>
         </form>
         <ul>
             <heading>Search Result</heading>
